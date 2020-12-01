@@ -25,7 +25,7 @@ public class Delete extends Method {
     /**
      * Create a new Delete request object with a URI object and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Delete(URI uri, CloseableHttpClient client) {
@@ -36,7 +36,7 @@ public class Delete extends Method {
     /**
      * Create a new Delete request object with a String URI and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Delete(String uri, CloseableHttpClient client) {

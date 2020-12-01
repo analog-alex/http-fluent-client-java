@@ -25,7 +25,7 @@ public class Put extends MethodWithPayload {
     /**
      * Create a new Put request object with a URI object and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Put(URI uri, CloseableHttpClient client) {
@@ -35,7 +35,7 @@ public class Put extends MethodWithPayload {
     /**
      * Create a new Put request object with a string URI and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Put(String uri, CloseableHttpClient client) {

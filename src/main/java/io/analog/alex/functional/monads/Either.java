@@ -33,7 +33,7 @@ public class Either<L extends Throwable, R> {
     /**
      * Create RIGHT either - semantically a success state
      *
-     * @param <R> the stored value type
+     * @param <R>   the stored value type
      * @param value the stored value
      * @return right Either
      */
@@ -121,7 +121,7 @@ public class Either<L extends Throwable, R> {
      * Map the inner elements of the Either object by supplying two mapper functions
      * They will be applied on the direction (left|right) present
      *
-     * @param <T> the throwable type
+     * @param <T>   the throwable type
      * @param lFunc the left side transform
      * @param rFunc the right side transform
      * @return the mapped Either
@@ -134,7 +134,7 @@ public class Either<L extends Throwable, R> {
      * Map the left element of the Either object, returning another Either of the type
      * Throwable the left components was mapped to.
      *
-     * @param <T> the throwable type
+     * @param <T>   the throwable type
      * @param lFunc the left side transform
      * @return the mapped value
      */
@@ -147,7 +147,7 @@ public class Either<L extends Throwable, R> {
      * Map the right element of the Either object, returning another Either of the type
      * the R the right components was mapped to.
      *
-     * @param <T> the throwable type
+     * @param <T>   the throwable type
      * @param rFunc the left side transform
      * @return the mapped value
      */

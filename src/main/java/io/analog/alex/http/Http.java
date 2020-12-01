@@ -56,7 +56,7 @@ public class Http {
 
     /**
      * A PATCH request to the provided {@link java.net.URI} resource
-     * A PATCH request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating 
+     * A PATCH request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating
      * a resource. It is distinguished from a PUT by representing a partial modification of the resource.
      *
      * @param uri an universal resource identifier representing the address of a remote resource
@@ -68,7 +68,7 @@ public class Http {
 
     /**
      * A PUT request to the provided {@link java.net.URI} resource
-     * A PUT request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating or upserting 
+     * A PUT request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating or upserting
      * a resource. It is distinguished from a PATCH by representing the full modification of the resource.
      *
      * @param uri an universal resource identifier representing the address of a remote resource
@@ -116,7 +116,7 @@ public class Http {
 
     /**
      * A PATCH request to the provided URL resource
-     * A PATCH request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating 
+     * A PATCH request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating
      * a resource. It is distinguished from a PUT by representing a partial modification of the resource.
      *
      * @param uri an universal resource identifier representing the address of a remote resource
@@ -128,7 +128,7 @@ public class Http {
 
     /**
      * A PUT request to the provided URL resource
-     * A PUT request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating or upserting 
+     * A PUT request is normally used to alter some state or trigger some persistent effect in an idempotent fashion e.g. updating or upserting
      * a resource. It is distinguished from a PATCH by representing the full modification of the resource.
      *
      * @param uri an universal resource locator representing the address of a remote resource
@@ -152,13 +152,13 @@ public class Http {
     /* ==========================
      *  extras
      */
-    
+
     private static CloseableHttpClient client = closableHttpClient();
 
     /**
      * Calls all the provided request asynchronously and returns an {@link io.reactivex.Observable} that
      * can be subscribed to.
-     *    
+     *
      * @param https a collection of HTTP requests with any combination of methods
      * @return n {@link io.reactivex.Observable} for subscription
      */
@@ -174,7 +174,7 @@ public class Http {
         /* === concatenate said collection of Observables === */
         return Observable.concat(observables).subscribeOn(Schedulers.io());
     }
-    
+
     // INJECTION
     public static CloseableHttpClient closableHttpClient() {
         return HttpClients.createDefault();

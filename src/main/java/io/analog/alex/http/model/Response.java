@@ -93,7 +93,7 @@ public abstract class Response {
      * the Gson library which maps JSON members into a POJO attribute with
      * the same name.
      *
-     * @param <T> a type parameter
+     * @param <T>     a type parameter
      * @param classOf the class wished to be parsed to
      * @return an instance of the given T class, if parsing is successfull
      * @throws com.google.gson.JsonSyntaxException - if parsing fails
@@ -108,7 +108,7 @@ public abstract class Response {
      * the Gson library which maps JSON members into a POJO attribute with
      * the same name.
      *
-     * @param <T> a type parameter
+     * @param <T>     a type parameter
      * @param classOf the type that will parametrized the collection that the JSON will be parsed to
      * @return a collection of generic T class
      * @throws com.google.gson.JsonSyntaxException - if parsing fails

@@ -31,7 +31,7 @@ public class Form {
     /**
      * Add a String part with TEXT_PLAIN Content-Type
      *
-     * @param key the identifier
+     * @param key   the identifier
      * @param value the content proper
      * @return the reference to this class instance
      */
@@ -43,9 +43,9 @@ public class Form {
     /**
      * Add a String part with an explicit Content-Type
      *
-     * @param key the identifier
+     * @param key   the identifier
      * @param value the content proper
-     * @param type a content type represented by the String (e.g. JSON)
+     * @param type  a content type represented by the String (e.g. JSON)
      * @return the reference to this class instance
      */
     public Form addPart(String key, String value, ContentType type) {
@@ -56,9 +56,9 @@ public class Form {
     /**
      * Add an InputStream part with a required explicit Content-Type
      *
-     * @param key the identifier
+     * @param key   the identifier
      * @param value the content proper
-     * @param type a content type represented by the Input Stream (e.g. JSON)
+     * @param type  a content type represented by the Input Stream (e.g. JSON)
      * @return the reference to this class instance
      */
     public Form addPart(String key, InputStream value, ContentType type) {
@@ -69,9 +69,9 @@ public class Form {
     /**
      * Add an File part with a required explicit Content-Type
      *
-     * @param key the identifier
+     * @param key   the identifier
      * @param value the content proper
-     * @param type a content type represented by the File (e.g. JSON)
+     * @param type  a content type represented by the File (e.g. JSON)
      * @return the reference to this class instance
      */
     public Form addPart(String key, File value, ContentType type) {
@@ -82,9 +82,9 @@ public class Form {
     /**
      * Add an byte array part with a required explicit Content-Type and filename
      *
-     * @param key the identifier
-     * @param value the content proper
-     * @param type a content type represented by the byte array (e.g. JSON)
+     * @param key      the identifier
+     * @param value    the content proper
+     * @param type     a content type represented by the byte array (e.g. JSON)
      * @param filename a file name to store the byte array
      * @return the reference to this class instance
      */

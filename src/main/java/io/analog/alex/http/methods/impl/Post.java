@@ -25,7 +25,7 @@ public class Post extends MethodWithPayload {
     /**
      * Create a new Post request object with a URI object and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Post(URI uri, CloseableHttpClient client) {
@@ -35,7 +35,7 @@ public class Post extends MethodWithPayload {
     /**
      * Create a new Post request object with a URI object and a Apache Http Client
      *
-     * @param uri an universal resource identifier representing the address of a remote resource
+     * @param uri    an universal resource identifier representing the address of a remote resource
      * @param client a pre-defined CloseableHttpClient to override the default one
      */
     public Post(String uri, CloseableHttpClient client) {
