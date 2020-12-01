@@ -44,7 +44,7 @@ public abstract class Method {
     /**
      * Add a URL parameter to the URI
      *
-     * @param key the parameter name
+     * @param key   the parameter name
      * @param value the parameter value
      * @return the modified abstract http Method
      */
@@ -63,7 +63,7 @@ public abstract class Method {
     /**
      * Add an HTTP Header on a  key | value basis
      *
-     * @param key the header key
+     * @param key   the header key
      * @param value the header value
      * @return the modified abstract http Method
      */

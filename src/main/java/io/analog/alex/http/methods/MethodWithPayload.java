@@ -39,7 +39,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a String payload
+     * @param payload     a String payload
      * @param contentType a content type written raw
      * @return the abstract MethodWithPayload
      */
@@ -53,7 +53,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a byte array payload
+     * @param payload     a byte array payload
      * @param contentType a content type written raw
      * @return the abstract MethodWithPayload
      */
@@ -67,7 +67,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload an input stream payload
+     * @param payload     an input stream payload
      * @param contentType a content type written raw
      * @return the abstract MethodWithPayload
      */
@@ -81,7 +81,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a file payload
+     * @param payload     a file payload
      * @param contentType a content type written raw
      * @return the abstract MethodWithPayload
      */
@@ -99,7 +99,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload an input stream payload
+     * @param payload     an input stream payload
      * @param contentType a content type
      * @return the abstract MethodWithPayload
      */
@@ -111,7 +111,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a byte array payload
+     * @param payload     a byte array payload
      * @param contentType a content type
      * @return the abstract MethodWithPayload
      */
@@ -123,7 +123,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a String payload
+     * @param payload     a String payload
      * @param contentType a content type
      * @return the abstract MethodWithPayload
      */
@@ -135,7 +135,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a body with a given type
      *
-     * @param payload a file payload
+     * @param payload     a file payload
      * @param contentType a content type
      * @return the abstract MethodWithPayload
      */
@@ -162,7 +162,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a Object based body as a 'application/json'
      *
-     * @param payload  an Object understood as representing a JSON
+     * @param payload an Object understood as representing a JSON
      * @return the abstract MethodWithPayload
      */
     public MethodWithPayload addBodyAsJson(Object payload) {
@@ -211,7 +211,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add a URL parameter to the URI
      *
-     * @param key the parameter name
+     * @param key   the parameter name
      * @param value the parameter value
      * @return the modified abstract http MethodWithPayload
      */
@@ -231,7 +231,7 @@ public abstract class MethodWithPayload extends Method {
     /**
      * Add an HTTP Header on a  key | value basis
      *
-     * @param key the header key
+     * @param key   the header key
      * @param value the header value
      * @return the modified abstract http MethodWithPayload
      */
