@@ -1,12 +1,9 @@
 # Http Fluent Client 
-A fluent http client working over Apache Http Client (4.5.8)
+A fluent http client working over Apache Http Client
 
 ---
 
-[![Build Status](https://travis-ci.org/analog-alex/http-fluent-client.svg?branch=master)](https://travis-ci.org/analog-alex/http-fluent-client)
-[![codecov](https://codecov.io/gh/analog-alex/http-fluent-client/branch/master/graph/badge.svg)](https://codecov.io/gh/analog-alex/http-fluent-client)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/49bb027f438742bd9fc33212d6eeb5c6)](https://www.codacy.com/manual/mumbleinout/http-fluent-client?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=analog-alex/http-fluent-client&amp;utm_campaign=Badge_Grade)
-[![Known Vulnerabilities](https://snyk.io/test/github/analog-alex/http-fluent-client/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/analog-alex/http-fluent-client?targetFile=pom.xml)
+![Build](https://github.com/analog-alex/http-fluent-client/workflows/Java%20CI%20with%20Maven/badge.svg)
 
 ## Author
 Miguel Alexandre @2019
