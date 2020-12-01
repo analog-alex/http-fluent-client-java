@@ -5,6 +5,7 @@ A fluent http client working over Apache Http Client
 
 ![Build](https://github.com/analog-alex/http-fluent-client/workflows/Java%20CI%20with%20Maven/badge.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/1d889ad3ee6a4c3ca7cd58aed6f80c60)](https://www.codacy.com/gh/analog-alex/http-fluent-client-java/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=analog-alex/http-fluent-client-java&amp;utm_campaign=Badge_Grade)
+[![codecov](https://codecov.io/gh/analog-alex/http-fluent-client-java/branch/main/graph/badge.svg?token=ukR7a8TKIC)](https://codecov.io/gh/analog-alex/http-fluent-client-java)
 
 ## Author
 Miguel Alexandre @2019
