@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Miguel Alexandre",
+    "age": 27,
+    "job": "Software Dev",
+    "details": "Interest in Computer Science"
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "age": 43,
+    "job": "Cooporate Lawyer",
+    "details": "Likes postmodern novels"
+  },
+  {
+    "id": 3,
+    "name": "Jane Somewhere",
+    "age": 34,
+    "job": "Fashion Model",
+    "details": "Dreams to become an interior designer"
+  },
+  {
+    "id": 4,
+    "name": "Megan Fox",
+    "age": 23,
+    "job": "Actress",
+    "details": "Knows Latin, Greek and Babylonian"
+  }
+]
