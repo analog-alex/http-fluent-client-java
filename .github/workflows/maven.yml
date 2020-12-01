@@ -22,3 +22,7 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: mvn test
+    - name: Build test coverage report
+      run: mvn cobertura:cobertura
+    - name: Send coverage to codacy
+      run: bash <(curl -Ls https://coverage.codacy.com/get.sh) report
